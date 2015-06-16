@@ -3,7 +3,8 @@
 /*heard*/
 body{ background:#bebebe url(bg.gif);}
 .wrap{ max-width:1000px;margin:0 auto; }
-.header{ height:170px; background:#4c7298 url(hd_bg.gif);}
+/*.header{ height:170px; background:#4c7298 url(hd_bg.gif);}*/
+.header{ height:170px;}
 .header .wrap{}
 .header .user_img{ float:left; margin:60px 20px 0 0; }
 .header .user_img img{border-left:none; border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;-khtml-border-radius:50px;}
@@ -82,7 +83,8 @@ body{ background:#bebebe url(bg.gif);}
 .con .info .comment:hover{ background-position:0 -453px; color:#f60;}
 
 /*right*/
-.right{ width:200px; float:right; background:#fff url(x.png) repeat-x 0 -995px; margin-top:-5px; padding:20px; margin-bottom:20px;border-radius: 0 0 5px 5px;-webkit-border-radius:  0 0 5px 5px;-moz-border-radius:  0 0 5px 5px;-khtml-border-radius:  0 0 5px 5px; box-shadow: 0px 1px 2px #999;}
+.right{width:200px; float:right; background:#fff url(x.png) repeat-x 0 -995px; margin-top:20px; padding:20px; margin-bottom:20px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-khtml-border-radius:  5px; box-shadow: 0px 1px 2px #999;}
+/*.con{border-radius:5px; -webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px; background:#fff; margin-bottom:40px;box-shadow: 0px 1px 2px #999;}*/
 .right h3{ font-size:18px; margin-bottom:10px; padding-bottom:2px; font-weight:bold; color:#666;border-bottom: 2px #ddd solid;}
 .right ul{ margin-bottom:20px;}
 .right .tag { font-size:14px; line-height:16px; margin-bottom:30px;}
